@@ -115,6 +115,14 @@ Display a log of commits
 ```bash
 $ git log
 ```
+Display a log of commits with more information
+```bash
+$ git log --stat
+```
+Display commit tree
+```bash
+$ git log --graph --oneline [branch1] [branch2]
+```
 Display a fixed number of commits
 ```bash
 $ git log -n [number]
