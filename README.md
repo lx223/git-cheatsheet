@@ -82,6 +82,7 @@ Merge two branches (branch1 and branch2) into current branch
 $ git merge [branch1] [branch2]
 ```
 **Note 1:** If having conflicts, resolve, add and commit
+
 **Note 2:** Fast-forward merge happens when the branch to merge into is an ancestor of the other
 Abort a merge
 ```bash
