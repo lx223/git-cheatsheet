@@ -15,6 +15,10 @@ Set username and email
 $ git config --global user.name [name]
 $ git config --global user.email [email]
 ```
+Enable colour
+```bash
+$ git config --global color.ui auto
+```
 List all configs
 ```bash
 $ git config --list
