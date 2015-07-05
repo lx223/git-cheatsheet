@@ -92,6 +92,24 @@ Abort a merge
 ```bash
 $ git merge --abort
 ```
+### Staging
+Add all current changes to staging area
+```bash
+$ git add .
+```
+Add a file to staging area
+```bash
+$ git add [file]
+```
+### Commits
+Commit staged changes with commit message
+```bash
+$ git commit -m "message"
+```
+Commit and add local changes in tracked files wiht commit message
+```bash
+$ git commit -am "message"
+```
 ### Logs
 Display a log of commits
 ```bash
