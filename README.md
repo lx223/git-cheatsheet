@@ -105,3 +105,7 @@ Display a log of commits for branch specified
 ```bash
 $ git log [branch]
 ```
+Show information about a commit
+```bash
+$ git show [commitId]
+```
