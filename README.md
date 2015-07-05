@@ -15,6 +15,10 @@ Set username and email
 $ git config --global user.name [name]
 $ git config --global user.email [email]
 ```
+List all configs
+```bash
+$ git config --list
+```
 ## Working commands
 To get current status of the repository
 ```bash
