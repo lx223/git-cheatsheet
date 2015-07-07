@@ -41,6 +41,10 @@ Add a new branch
 ```bash
 $ git branch [newBranchName]
 ```
+Delete a branch
+```bash
+$ git branch -d [branchName]
+```
 ### Checkouts
 Change to a commit version
 ```bash
