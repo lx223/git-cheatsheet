@@ -103,13 +103,21 @@ Add a file to staging area
 $ git add [file]
 ```
 ### Removes
-Remove a file from Git repository
+Remove a file from Git repository and file system
 ```bash
 $ git rm [file]
 ```
-Remove a directotry from Git repository
+Remove a directotry from Git repository and file system
 ```bash
 $ git rm -r [directory]
+```
+Remove a file from Git repository but not file system
+```bash
+$ git rm --cached [file]
+```
+Remove a directotry from Git repository but not file system
+```bash
+$ git rm --cached -r [directory]
 ```
 ### Commits
 Commit staged changes with commit message
