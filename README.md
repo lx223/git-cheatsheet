@@ -157,3 +157,12 @@ Show information about a commit
 ```bash
 $ git show [commitId]
 ```
+### Stash
+Stash modified stracked files temporarily
+```bash
+$ git stash
+```
+Restore the most recently stashed files
+```bash
+$ git stash pop
+```
