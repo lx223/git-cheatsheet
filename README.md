@@ -102,6 +102,15 @@ Add a file to staging area
 ```bash
 $ git add [file]
 ```
+### Removes
+Remove a file from Git repository
+```bash
+$ git rm [file]
+```
+Remove a directotry from Git repository
+```bash
+$ git rm -r [directory]
+```
 ### Commits
 Commit staged changes with commit message
 ```bash
