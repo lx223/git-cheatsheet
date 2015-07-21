@@ -166,3 +166,8 @@ Restore the most recently stashed files
 ```bash
 $ git stash pop
 ```
+### Revert
+Revert a commit
+```bash
+$ git revert [commitId]
+```
