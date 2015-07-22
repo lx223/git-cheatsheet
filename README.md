@@ -1,5 +1,21 @@
 # Git Cheat Sheet
 This is written to teach myself Git and to be a quick reference of useful Git commands.
+
+## Table of Contents
+- [Initialisation](#initialisation)
+- [Configuration](#configuration)
+- [Working commands](#working-commands)
+    - [Branches](#branches)
+    - [Checkouts](#checkouts)
+    - [Remotes](#remotes)
+    - [Merges](#merges)
+    - [Staging](#staging)
+    - [Removes](#removes)
+    - [Commits](#commits)
+    - [Logs](#logs)
+    - [Stash](#stash)
+    - [Revert](#revert)
+
 ## Initialisation
 Start with a new Git project
 ```bash
