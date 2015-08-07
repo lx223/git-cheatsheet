@@ -72,6 +72,10 @@ Display all branches, especially to see the branch origin/master
 ```bash
 $ git branch -a
 ```
+Display remote branches
+```bash
+$ git branch -r
+```
 Add a new branch
 ```bash
 $ git branch [newBranchName]
