@@ -4,7 +4,9 @@ This is written to teach myself Git and to be a quick reference of useful Git co
 ## Table of Contents
 - [Initialisation](#initialisation)
 - [Configuration](#configuration)
-- [Working commands](#working-commands)
+- [Work cases](#work-cases)
+    - [Initialise repository](#initialise-repository)
+- [Specific commands](#working-commands)
     - [Branches](#branches)
     - [Checkouts](#checkouts)
     - [Remotes](#remotes)
@@ -39,6 +41,23 @@ List all configs
 ```bash
 $ git config --list
 ```
+
+## Work cases
+### Initialise repository
+To start with an empty repository
+```bash
+$ cd [repository]
+$ git init
+$ git add .
+$ git commit -m "Inital commit"
+```
+
+To start with a remote repository
+```bash
+$ cd [repository]
+$ git clone [remoteUrl]
+```
+
 ## Working commands
 To get current status of the repository
 ```bash
