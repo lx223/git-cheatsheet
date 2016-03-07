@@ -6,6 +6,7 @@ This is written to teach myself Git and to be a quick reference of useful Git co
 - [Configuration](#configuration)
 - [Work cases](#work-cases)
     - [Initialise repository](#initialise-repository)
+    - [Setting up Git aliases for Linux style terminal](#setting-up-git-aliases-for-linux-style-terminal)
 - [Specific commands](#working-commands)
     - [Branches](#branches)
     - [Checkouts](#checkouts)
@@ -56,6 +57,23 @@ To start with a remote repository
 ```bash
 $ cd [repository]
 $ git clone [remoteUrl]
+```
+
+### Setting up Git aliases for Linux style terminal
+If there is no .bash_profile file under ~, create one. Open it with a text editor and enter the following.
+
+```bash
+# Setting Git commands aliases
+alias gt='gitk --all &'
+alias gu='git gui &'
+alias gs='git status'
+alias gf='git fetch'
+alias gb='git branch'
+alias gc='git checkout'
+alias gp='git pull --rebase'
+alias ga='git add'
+alias grb='git rebase'
+alias gps='git push'
 ```
 
 ## Working commands
